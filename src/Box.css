@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    width: 80%;
+    text-align: center;
+    background-color: greenyellow;
+    align-items: center;
+    padding: 20px ;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+.container div.boxes{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+.container div.boxes:hover{
+    background-color: black;
+    color: greenyellow;
+}
