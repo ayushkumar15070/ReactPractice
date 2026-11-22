@@ -16,7 +16,7 @@ const App = () => {
     <div className="container">
       {
         data.map(stud => 
-          <Boxes name = {stud} />
+          <Boxes name = {stud}/>
         )
       }
     </div>
